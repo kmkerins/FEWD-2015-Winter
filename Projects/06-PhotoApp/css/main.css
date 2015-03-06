@@ -1,0 +1,40 @@
+body {
+		color: #777;
+		font-family: "Roboto", sans-serif;
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 1.5;
+	}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 300;
+	line-height: 1;
+	margin: 0;
+	}
+
+.top {
+		background: #e77e04 url(../images/intro_bg.jpg) no-repeat top center;
+		color: #fff;
+	}
+
+.top_header {
+		font-size: 50px;
+		text-transform: uppercase;
+	}
+
+.top_text {
+		font-size: 20px;
+	}
+
+.top_button {
+		background: #fff;
+		color: #e77e04;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
