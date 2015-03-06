@@ -38,3 +38,25 @@ h6 {
 		font-size: 20px;
 		text-transform: uppercase;
 	}
+
+.footer {
+		border-top: 1px solid #eee;
+		padding: 30px 0;
+		text-align: center;
+	}
+
+.social {
+	margin-bottom: 20px;
+	}
+
+.social_link {
+	color: #2b3f4c;
+	display: inline-block;
+	margin: 0 5px;
+	}
+
+.bottom_link {
+	color: #2b3f4c;
+	display: inline-block;
+	margin: 0 5px;
+}
