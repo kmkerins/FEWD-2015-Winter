@@ -47,6 +47,52 @@ section {
 		text-transform: uppercase;
 	}
 
+.button {
+		text-align: center;
+		display: inline-block;
+		line-height: 1;
+		border-radius: 3px;
+		padding: 15px 30px 18px;
+		width: 100%;
+	}
+
+.logo {
+		color: #2b3f4c;
+		font-size: 30px;
+		line-height: 100px;
+	}
+
+.feature {
+		text-align: center;
+	}
+	
+.feature_title {
+		color: #e77e04;
+		font-size: 26px;
+		text-transform: uppercase;
+	}
+
+.download {
+		text-align: center;
+	}
+
+.download_title {
+		color: #e77e04;
+		font-size: 42px;
+	}
+
+.download_text {
+		font-size: 18px;
+	}
+
+.gallery {
+		background: #eee;
+	}
+
+.gallery_title {
+		color: #2b3f4c;
+		font-size: 36px;
+	}
 
 .footer {
 		border-top: 1px solid #eee;
