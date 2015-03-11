@@ -1,7 +1,4 @@
 
-
-
-
 body {
 		color: #777;
 		font-family: "Roboto", sans-serif;
@@ -65,7 +62,7 @@ section {
 .feature {
 		text-align: center;
 	}
-	
+
 .feature_title {
 		color: #e77e04;
 		font-size: 26px;
@@ -105,15 +102,16 @@ section {
 		position: relative;
 	}
 
-.intro_row:before {
-		background: url(../images/intro_phone.png) no-repeat;
-		bottom: 0px;
-		content: '';
-		height: 554px;
-		position: absolute;
-		width: 325px;
-		right: 130px;
-	}
+@media screen and (min-width: 740px) {
+		.intro_row:before {
+			background: url(../images/intro_phone.png) no-repeat;
+			bottom: 0;
+			content: '';
+			height: 554px;
+			position: absolute;
+			right: 30px;
+			width: 325px;
+		}
 
 .social {
 	margin-bottom: 20px;
